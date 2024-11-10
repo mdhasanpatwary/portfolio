@@ -38,10 +38,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About NexTemp</title>
+        <title>About MD Hasan Patwary</title>
         <meta
           name="description"
-          content="NexTemp, A open-source portfolio theme built with Nextjs"
+          content="MD Hasan Patwary, Front-End Web Developer | 5+ Years Exp. | HTML, CSS, JavaScript, jQuery, React, Next"
         />
       </Head>
 
@@ -64,15 +64,15 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                I'm Riley, a dedicated web developer at Stellar Innovations,
+                I'm MD Hasan Patwary, a dedicated web developer at 6amTech,
                 where I specialize in creating dynamic and user-centric web
-                experiences. With over a decade of experience in the industry, I
-                have honed my skills in both front-end and back-end
+                experiences. With over 6 Years of experience in the industry, I
+                have honed my skills in front-end 
                 technologies, allowing me to deliver responsive and
                 high-performance websites and applications.
               </p>
               <p className="my-4 font-medium">
-                At Stellar Innovations, I've had the opportunity to work on
+                At 6amTech, I've had the opportunity to work on
                 numerous high-profile projects that have challenged and expanded
                 my expertise. My technical skill set includes HTML, CSS,
                 JavaScript, React, and Node.js, among other technologies. One of
@@ -114,7 +114,7 @@ export default function About() {
             >
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={1461} />+
+                  <AnimatedNumberFramerMotion value={1861} />+
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
@@ -126,25 +126,25 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={500} />
+                  <AnimatedNumberFramerMotion value={50} /> +
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Bugs Made
+                  projects completed
                 </h3>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={499} />
+                  <AnimatedNumberFramerMotion value={5} /> +
                 </span>
                 <h3
                   className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm"
                 >
-                  Bugs Crushed
+                  Years of experience
                 </h3>
               </div>
             </div>
