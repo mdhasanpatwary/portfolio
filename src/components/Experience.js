@@ -63,7 +63,7 @@ const Experience = () => {
             time="2021 - 2024"
             address="House 1005, 1007, (Level: 02), Avenue: 11, 1216 Road no: 09, Dhaka 1216"
             companyLink="https://6amtech.com/"
-            work="1. Codecanyon Profile: Contributed to all products on the company's Codecanyon profile, significantly enhancing the company's market presence and product offerings. 2. Major Projects: Played a pivotal role in the development of high-impact projects such as "6valley," "Demandium," "Hexaride," and "6amMart.” 3. End-to-End Development: Developed "Demandium" and “Hexaride" from scratch, showcasing expertise in project management and technical execution. 4. UI Updates: Led comprehensive UI updates across multiple projects, improving user experience and modernizing designs. 5. Codebase Structuring: Structured and organized codebases to ensure long-term maintainability and scalability, facilitating easier updates and enhancements. 6. During my tenure at 6amtech, I consistently delivered high-quality work, contributing to the success and growth of the company's product portfolio."
+            work="* Codecanyon Profile: Contributed to all products on the company's Codecanyon profile, significantly enhancing the company's market presence and product offerings. * Major Projects: Played a pivotal role in the development of high-impact projects such as "6valley," "Demandium," "Hexaride," and "6amMart.” * End-to-End Development: Developed "Demandium" and “Hexaride" from scratch, showcasing expertise in project management and technical execution. * UI Updates: Led comprehensive UI updates across multiple projects, improving user experience and modernizing designs. * Codebase Structuring: Structured and organized codebases to ensure long-term maintainability and scalability, facilitating easier updates and enhancements. * During my tenure at 6amtech, I consistently delivered high-quality work, contributing to the success and growth of the company's product portfolio."
           />
 
           <Details
@@ -72,7 +72,7 @@ const Experience = () => {
             time="2019 - 2022"
             address="965 Begum Rokeya Avenue, Dhaka 1216"
             companyLink="https://themelooks.com/"
-            work="1. Contributed to over 10 items available on ThemeForest under the Themelooks profile. 2. Developed and contributed to several plugins featured on Codecanyon, enhancing the functionality and usability of various web projects. 3. Managed multiple projects simultaneously, ensuring timely delivery and high-quality standards. 4. During my tenure, I played a key role in the success of numerous projects, significantly enhancing the overall quality and performance of Themelooks' web products."
+            work="* Contributed to over 10 items available on ThemeForest under the Themelooks profile. * Developed and contributed to several plugins featured on Codecanyon, enhancing the functionality and usability of various web projects. * Managed multiple projects simultaneously, ensuring timely delivery and high-quality standards. * During my tenure, I played a key role in the success of numerous projects, significantly enhancing the overall quality and performance of Themelooks' web products."
           />
         </ul>
       </div>
