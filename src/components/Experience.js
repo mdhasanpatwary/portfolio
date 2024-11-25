@@ -57,23 +57,32 @@ const Experience = () => {
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-          <Details
-            position="Software Engineer"
-            company="6amTech"
-            time="2021 - 2024"
-            address="House 1005, 1007, (Level: 02), Avenue: 11, 1216 Road no: 09, Dhaka 1216"
-            companyLink="https://6amtech.com/"
-            work="* Codecanyon Profile: Contributed to all products on the company's Codecanyon profile, significantly enhancing the company's market presence and product offerings. * Major Projects: Played a pivotal role in the development of high-impact projects such as \"6valley,\" \"Demandium,\" \"Hexaride,\" and \"6amMart\". * End-to-End Development: Developed \"Demandium\" and \“Hexaride\" from scratch, showcasing expertise in project management and technical execution. * UI Updates: Led comprehensive UI updates across multiple projects, improving user experience and modernizing designs. * Codebase Structuring: Structured and organized codebases to ensure long-term maintainability and scalability, facilitating easier updates and enhancements. * During my tenure at 6amtech, I consistently delivered high-quality work, contributing to the success and growth of the company\'s product portfolio."
-          />
+        <Details
+          position="Software Engineer"
+          company="6amTech"
+          time="2021 - 2024"
+          address="House 1005, 1007 (Level: 02), Avenue: 11, Road No: 09, Dhaka 1216"
+          companyLink="https://6amtech.com/"
+          work={`* **Codecanyon Contributions:** Played a significant role in the success of all products on the company's Codecanyon profile, enhancing both market presence and product quality. 
+          * **Major Projects:** Key contributor to high-impact projects including "6valley," "Demandium," "Hexaride," and "6amMart." 
+          * **End-to-End Development:** Successfully developed "Demandium" and "Hexaride" from scratch, showcasing strong project management and technical expertise. 
+          * **UI Updates:** Led comprehensive UI overhauls across various projects, improving user experience and aligning designs with modern standards. 
+          * **Codebase Structuring:** Structured and optimized codebases to enhance scalability and maintainability, simplifying future updates and iterations. 
+          * **Impact:** Consistently delivered high-quality work, contributing to the growth and success of the company's product portfolio during my tenure.`}
+        />
 
-          <Details
-            position="Front-End Developer"
-            company="Themelooks"
-            time="2019 - 2022"
-            address="965 Begum Rokeya Avenue, Dhaka 1216"
-            companyLink="https://themelooks.com/"
-            work="* Contributed to over 10 items available on ThemeForest under the Themelooks profile. * Developed and contributed to several plugins featured on Codecanyon, enhancing the functionality and usability of various web projects. * Managed multiple projects simultaneously, ensuring timely delivery and high-quality standards. * During my tenure, I played a key role in the success of numerous projects, significantly enhancing the overall quality and performance of Themelooks' web products."
-          />
+        <Details
+          position="Front-End Developer"
+          company="Themelooks"
+          time="2019 - 2022"
+          address="965 Begum Rokeya Avenue, Dhaka 1216"
+          companyLink="https://themelooks.com/"
+          work={`* **ThemeForest Contributions:** Contributed to over 10 items listed on ThemeForest under Themelooks' profile, showcasing expertise in developing premium themes. 
+          * **Plugin Development:** Designed and developed multiple plugins featured on Codecanyon, enhancing the functionality and usability of web projects. 
+          * **Project Management:** Efficiently handled multiple projects simultaneously, ensuring timely delivery and adherence to high-quality standards. 
+          * **Impact:** Played a pivotal role in the success of various projects, significantly improving the quality and performance of Themelooks' web products.`}
+        />
+
         </ul>
       </div>
       <div className="mt-40 flex items-center justify-between gap-3 grid-cols-2">
