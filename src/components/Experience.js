@@ -63,15 +63,6 @@ const Experience = () => {
             time="2021 - 2024"
             address="House 1005, 1007, (Level: 02), Avenue: 11, 1216 Road no: 09, Dhaka 1216"
             companyLink="https://6amtech.com/"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
-          />
-
-          <Details
-            position="Front-End Developer"
-            company="Themelooks"
-            time="2019 - 2022"
-            address="965 Begum Rokeya Avenue, Dhaka 1216"
-            companyLink="https://themelooks.com/"
             work="1. Codecanyon Profile: Contributed to all products on the
 company's Codecanyon profile, significantly enhancing the
 company's market presence and product offerings.
@@ -94,6 +85,28 @@ updates and enhancements.
 5. During my tenure at 6amtech, I consistently delivered high-quality
 work, contributing to the success and growth of the company's
 product portfolio."
+          />
+
+          <Details
+            position="Front-End Developer"
+            company="Themelooks"
+            time="2019 - 2022"
+            address="965 Begum Rokeya Avenue, Dhaka 1216"
+            companyLink="https://themelooks.com/"
+            work="1. Contributed to over 10 items available on ThemeForest under the
+Themelooks profile.
+
+2. Developed and contributed to several plugins featured on
+Codecanyon, enhancing the functionality and usability of various
+web projects.
+
+3. Managed multiple projects simultaneously, ensuring timely delivery
+and high-quality standards.
+
+4. During my tenure, I played a key role in the success of numerous
+projects, significantly enhancing the overall quality and
+performance of Themelooks' web products.
+"
           />
         </ul>
       </div>
