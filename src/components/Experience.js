@@ -69,10 +69,31 @@ const Experience = () => {
           <Details
             position="Front-End Developer"
             company="Themelooks"
-            time="2018 - 2021"
+            time="2019 - 2022"
             address="965 Begum Rokeya Avenue, Dhaka 1216"
             companyLink="https://themelooks.com/"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            work="1. Codecanyon Profile: Contributed to all products on the
+company's Codecanyon profile, significantly enhancing the
+company's market presence and product offerings.
+
+2. Major Projects: Played a pivotal role in the development of high-
+impact projects such as "6valley," "Demandium," "Hexaride," and
+"6amMart.”
+
+3. End-to-End Development: Developed "Demandium" and
+“Hexaride" from scratch, showcasing expertise in project
+management and technical execution.
+
++ UI Updates: Led comprehensive UI updates across multiple
+projects, improving user experience and modernizing designs.
+
+4. Codebase Structuring: Structured and organized codebases to
+ensure long-term maintainability and scalability, facilitating easier
+updates and enhancements.
+
+5. During my tenure at 6amtech, I consistently delivered high-quality
+work, contributing to the success and growth of the company's
+product portfolio."
           />
         </ul>
       </div>
