@@ -494,52 +494,60 @@ export const LinkArrow = ({ className, ...rest }) => (
 );
 export const StackoverflowIcon = ({ className, ...rest }) => (
   <svg
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   width="64"
-   height="64"
-   id="stackoverflow-icon">
-  <g>
-    <path
-       d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
-       class="bottom"/>
-    <rect
-       width="22.944817"
-       height="4.881876"
-       x="16.481951"
-       y="48.434078"
-       class="orange-rect" />
-    <rect
-       width="23.066864"
-       height="5.0039229"
-       x="20.749949"
-       y="37.830307"
-       transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
-       class="orange-rect" />
-    <rect
-       width="23.066864"
-       height="5.0039229"
-       x="26.472515"
-       y="23.401554"
-       transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
-       class="orange-rect" />
-    <rect
-       width="23.066864"
-       height="5.0039229"
-       x="30.528769"
-       y="3.1535864"
-       transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
-       class="orange-rect" />
-    <rect
-       width="23.066864"
-       height="5.0039229"
-       x="27.191883"
-       y="-24.475019"
-       transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
-       class="orange-rect" />
-  </g>
-</svg>
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+    width="64"
+    height="64"
+    id="stackoverflow-icon"
+    className={className}
+    {...rest}
+  >
+    <g>
+      <path
+        d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
+        className="bottom"
+      />
+      <rect
+        width="22.944817"
+        height="4.881876"
+        x="16.481951"
+        y="48.434078"
+        className="orange-rect"
+      />
+      <rect
+        width="23.066864"
+        height="5.0039229"
+        x="20.749949"
+        y="37.830307"
+        transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
+        className="orange-rect"
+      />
+      <rect
+        width="23.066864"
+        height="5.0039229"
+        x="26.472515"
+        y="23.401554"
+        transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
+        className="orange-rect"
+      />
+      <rect
+        width="23.066864"
+        height="5.0039229"
+        x="30.528769"
+        y="3.1535864"
+        transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
+        className="orange-rect"
+      />
+      <rect
+        width="23.066864"
+        height="5.0039229"
+        x="27.191883"
+        y="-24.475019"
+        transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
+        className="orange-rect"
+      />
+    </g>
+  </svg>
 );
 
 export const DevIcon = ({ className, ...rest }) => (
