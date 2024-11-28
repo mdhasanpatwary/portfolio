@@ -492,7 +492,7 @@ export const LinkArrow = ({ className, ...rest }) => (
     </g>
   </svg>
 );
-export const StackOverflowIcon = ({ className, ...rest }) => (
+export const StackoverflowIcon = ({ className, ...rest }) => (
   <svg
     viewBox="0 0 24 24"
     fill="none"
