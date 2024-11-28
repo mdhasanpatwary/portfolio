@@ -60,7 +60,7 @@ const Experience = () => {
           <Details
             position="Software Engineer"
             company="6amTech"
-            time="2021 - 2024"
+            time="2022 - 2024"
             address="House 1005, 1007 (Level: 02), Avenue: 11, Road No: 09, Dhaka 1216"
             companyLink="https://6amtech.com/"
             work={`* Codecanyon Profile: Contributed to all products on the company's Codecanyon profile, significantly enhancing the company's market presence and product offerings.

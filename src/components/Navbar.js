@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
-  MediumIcon,
+  StackoverflowIcon,
   DevIcon,
   GithubIcon,
   LinkedInIcon,
@@ -119,7 +119,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mr-3"
-            href="https://github.com/lilxyzz"
+            href="https://github.com/mdhasanpatwary"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my GitHub profile"
@@ -130,18 +130,29 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3 bg-light rounded-full"
-            href="https://medium.com/@travis.lord"
+            href="https://stackoverflow.com/users/11076109/patwary"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            aria-label="Checkout my Medium profile"
+            aria-label="Checkout my Stackoverflow profile"
           >
-            <MediumIcon />
+            <StackoverflowIcon />
+          </motion.a>
+
+          <motion.a
+            target={"_blank"}
+            className="w-7 mx-3 bg-light rounded-full"
+            href="https://www.linkedin.com/in/mdhasanpatwary/"
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            aria-label="Checkout my LinkedIn profile"
+          >
+            <LinkedInIcon />
           </motion.a>
 
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://dev.to/mdhassanpatwary"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="Checkout my Dev.to profile"
@@ -152,7 +163,7 @@ const Navbar = () => {
           <motion.a
             target={"_blank"}
             className="w-7 mx-3"
-            href="https://dev.to/lilxyzz"
+            href="https://dev.to/mdhassanpatwary"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             aria-label="My Dev.to profile"

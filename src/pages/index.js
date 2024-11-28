@@ -81,7 +81,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        <div className="fixed right-8 bottom-8 inline-block md:hidden">
+        {/* <div className="fixed right-8 bottom-8 inline-block md:hidden">
           <iframe
             className="iframe"
             title="Noongar Seasonal Calendar"
@@ -91,7 +91,7 @@ export default function Home() {
             frameborder="0"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
         <HireMe />
       </article>
     </>
