@@ -492,60 +492,31 @@ export const LinkArrow = ({ className, ...rest }) => (
     </g>
   </svg>
 );
-export const StackoverflowIcon = ({ className, ...rest }) => (
+export const StackOverflowIcon = ({ className, ...rest }) => (
   <svg
+    viewBox="0 0 24 24"
+    fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    version="1.1"
-    width="24"
-    height="24"
-    viewBox="0 0 64 64"
-    id="stackoverflow-icon"
     className={className}
     {...rest}
   >
-    <g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0">
+      <rect
+        x="0"
+        y="0"
+        width="24"
+        height="24"
+        rx="12"
+        fill="#f5f5f5"
+        strokeWidth="0"
+      ></rect>
+    </g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+      <path d="M15.412 16.572V12.29h1.428V18H4v-5.71h1.428v4.282z" fill="#000000" />
       <path
-        d="m 9.3049611,36.847632 4.4013079,0.04316 -0.153442,19.598393 29.291259,0 0,-19.527506 4.637782,0 0,24.287331 -38.2006795,0 0.023777,-24.401371 z"
-        className="bottom"
-      />
-      <rect
-        width="22.944817"
-        height="4.881876"
-        x="16.481951"
-        y="48.434078"
-        className="orange-rect"
-      />
-      <rect
-        width="23.066864"
-        height="5.0039229"
-        x="20.749949"
-        y="37.830307"
-        transform="matrix(0.9953749,0.09606666,-0.09606666,0.9953749,0,0)"
-        className="orange-rect"
-      />
-      <rect
-        width="23.066864"
-        height="5.0039229"
-        x="26.472515"
-        y="23.401554"
-        transform="matrix(0.96240291,0.27162592,-0.27162592,0.96240291,0,0)"
-        className="orange-rect"
-      />
-      <rect
-        width="23.066864"
-        height="5.0039229"
-        x="30.528769"
-        y="3.1535864"
-        transform="matrix(0.85597805,0.51701216,-0.51701216,0.85597805,0,0)"
-        className="orange-rect"
-      />
-      <rect
-        width="23.066864"
-        height="5.0039229"
-        x="27.191883"
-        y="-24.475019"
-        transform="matrix(0.58242689,0.81288309,-0.81288309,0.58242689,0,0)"
-        className="orange-rect"
+        d="M6.857 15.145h7.137v-1.428H6.857zM13.254 2 12.108 2.852l4.26 5.727 1.146-.852zm-3.54 3.377 5.484 4.567.913-1.097L10.627 4.28l-.914 1.097zM7.922 8.55l6.47 3.013.603-1.294-6.47-3.013zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468z"
+        fill="#000000"
       />
     </g>
   </svg>
