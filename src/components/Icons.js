@@ -496,8 +496,9 @@ export const StackoverflowIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     version="1.1"
-    width="64"
-    height="64"
+    width="24"
+    height="24"
+    viewBox="0 0 64 64"
     id="stackoverflow-icon"
     className={className}
     {...rest}
