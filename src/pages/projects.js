@@ -8,6 +8,7 @@ import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
 import proj1 from "../../public/images/projects/clay-theme.png";
+import proj2 from "../../public/images/projects/p1.png";
 import loading from "../../public/images/articles/GTA6-VICE.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
@@ -139,14 +140,14 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link
+          {/* <Link
             href={github}
             target={"_blank"}
             className="w-10"
             aria-label="github link"
           >
             <GithubIcon />
-          </Link>
+          </Link> */}
           <Link
             href={link}
             className="ml-4 rounded-lg
@@ -250,23 +251,27 @@ export default function Projects() {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
-                img={proj1}
+                type="Front_End Development"
+                tools="HTML | CSS | JavaScript | jQuery | Bootstrap"
+                title="StackFood Multi Restaurant - Food Delivery App with Laravel Admin and Restaurant Panel"
+                summary="
+On sale
+StackFood Multi Restaurant - Food Delivery App with Laravel Admin and Restaurant Panel - CodeCanyon Item for Sale
+Live Preview Screenshots
+StackFood is a Multi restaurant food delivery system developed using Laravel and Flutter frameworks. Using StackFood, you can reinvent the way of food ordering and delivery system with its superb admin panel. With StackFood’s readymade and highly responsive mobile apps, you’ll get a seamless user experience for sure."
+                img={proj2}
                 date="2023"
-                link="/projects/clay-gatsby-theme"
+                link="https://stackfood.app/"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
+                type="Front_End Development"
+                tools="HTML | CSS | JavaScript | jQuery "
                 title="Clay - Gatsby Theme"
                 img={proj1}
-                date="2023"
+                date="24 August 2021"
                 link="/projects/clay-gatsby-theme"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
